@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "db": {
     "host": "mgg.vps.webdock.cloud",
@@ -23,3 +24,30 @@
     "body_html": "Estimado(a), <br>Adjunto encontrarás el archivo con las comisiones calculadas.<br>Saludos."
   }
 }
+=======
+{
+  "db": {
+    "host": "mgg.vps.webdock.cloud",
+    "port": 5432,
+    "dbname": "dmc",
+    "user": "usr_ro_dmc_rrhh_estudiantes",
+    "password": "fZp!jHt0j6%89^B4I*L*29bz4b^"
+  },
+  "smtp": {
+    "server": "mgg.vps.webdock.cloud",
+    "port": 1025,
+    "user": "",
+    "password": "",
+    "sender_email": "Python DataOps <pydataops@example.com>"
+  },
+  "paths": {
+    "csv":  "ComisionEmpleados_V1_202510.csv",
+    "excel": "ComisionesCalculadas.xlsx"
+  },
+  "report": {
+    "to": "usuario.dmc@gmail.com",
+    "subject": "RODRIGO TORRES - Comisiones Calculadas CI CD",
+    "body_html": "Estimado(a), <br>Adjunto encontrarás el archivo con las comisiones calculadas.<br>Saludos."
+  }
+}
+>>>>>>> 76c5c2f (Asunto CI-CD)
